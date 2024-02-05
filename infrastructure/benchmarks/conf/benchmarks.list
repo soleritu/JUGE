@@ -11,18 +11,7 @@ BCEL-1=
     /var/benchmarks/projects/bcel-6.0-src/target/classes
   )
 }
-BCEL-2=
-{
-  src=/var/benchmarks/projects/bcel-6.0-src/src/main/java
-  bin=/var/benchmarks/projects/bcel-6.0-src/target/classes
-  classes=(
-    org.apache.bcel.verifier.structurals.InstConstraintVisitor
-  )
 
-  classpath=(
-    /var/benchmarks/projects/bcel-6.0-src/target/classes
-  )
-}
 BCEL-3=
 {
   src=/var/benchmarks/projects/bcel-6.0-src/src/main/java
@@ -33,6 +22,30 @@ BCEL-3=
 
   classpath=(
     /var/benchmarks/projects/bcel-6.0-src/target/classes
+  )
+}
+GUAVA-2=
+{
+  src=/var/benchmarks/projects/guava/guava/src/
+  bin=/var/benchmarks/projects/guava/guava/target/classes
+  classes=(
+    com.google.common.collect.MinMaxPriorityQueue
+  )
+
+  classpath=(
+    /var/benchmarks/projects/guava/guava/target/guava-28.2-jre.jar
+  )
+}
+GUAVA-90=
+{
+  src=/var/benchmarks/projects/guava/guava/src/
+  bin=/var/benchmarks/projects/guava/guava/target/classes
+  classes=(
+    com.google.common.io.FileBackedOutputStream
+  )
+
+  classpath=(
+    /var/benchmarks/projects/guava/guava/target/guava-28.2-jre.jar
   )
 }
 }
