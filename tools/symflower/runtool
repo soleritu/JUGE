@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# switch to environment JVM as needed
+#JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+
+TOOL=lib/symflower_runtool-1.0.0.jar
+#export JAVA_HOME=$JAVA_HOME
+
+java -cp $TOOL sbst.runtool.Main

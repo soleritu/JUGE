@@ -47,6 +47,7 @@
         <module>jcrasher_runtool</module>
         <module>evosuite_runtool</module>
         <module>autcg_runtool</module>
+        <module>symflower_runtool</module>
         <module>shaded</module>
     </modules>
 
